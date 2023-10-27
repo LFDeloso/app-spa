@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.gap-1 {
+  gap: 100px;
+}
+.col {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  margin: 0 auto;
+  width:80%;
+}
+.bg-gray {
+  background-color: #f6f6f6;
+}
+.img {
+  width: 100%;
+  height: fit-content;
+}
+.img-2 {
+  max-width: 100%;
+  height: fit-content;
+  border: 0;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.text-align-center {
+  text-align: center;
+}
+.sTxt {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-align: center;
+  color: #000080;
+  font-weight: lighter;
+}
+.padding-2 {
+  padding: 2rem 25;
+}
+.form {
+  padding: 1.5rem;
+}
+.input-label {
+  font-family: "Playfair Display";
+  color: #2a2a2a;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.input-form {
+  height: 30px;
+  border: 2px solid black;
+}
+.btn-form {
+  border: 2px solid black;
+  height: 50px;
+  width: 200px;
+  font-family: "Playfair Display";
+  font-weight: bolder;
+  color: #2a2a2a;
+  font-size: 1rem;
+  background-color: unset;
+  box-shadow: 5px 5px 1px gray;
+  cursor: pointer;
+}
+.btn-form:hover {
+  background-color: black;
+  color: white;
+}
+hr {
+  height: 1px;
+  width: 80%;
+  background-color: #686868;
+  border: 0;
+}
+.title-card {
+  font-family: "Playfair Display";
+  color: #003;
+  font-size: 24px;
+}
+.paragraph-card {
+  font-family: "Playfair Display";
+  color: #686868;
+  font-size: 18px;
+}
+.title-long {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  color: #4a4a4a;
+}
+.paragraph {
+  font-family: "Playfair Display";
+  color: #686868;
+  font-size: 22px;
+}
+.title-md {
+  font-family: "Playfair Display";
+  font-size: 30px;
+  color: #4a4a4a;
+  line-height: 2;
+}
+.paragraph-md {
+  font-family: "Playfair Display";
+  color: #686868;
+  font-size: 25px;
+}
+.btn-link {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #010f45;
+  padding: 18px;
+  margin: 2rem 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.img-social {
+  margin: 0 1rem;
+}
+.cliente-2 {
+  height: 90%;
+  width: 90%;
+}
+.mrT {
+  background-color: #eaeaea;
+  height: 2px;
+  width: 50%;
+  margin: 50px auto;
+}
+.gap-5 {
+  gap: 50px;
+}
+.align-self-center {
+  align-self: center;
+}
+.col-2 {
+  width: 40%;
+}
+.padding-y-1 {
+  padding: 1rem 0 3rem;
+}
+.margin-y-1 {
+  margin: 2rem 100;
+}
+.fa-facebook {
+  color: #537bbe;
+}
+.fa-twitter-square {
+  color: #77ccf1;
+}
+.fa-link {
+  color: #54be93;
+}
+.fa-linkedin {
+  color: #137bb8;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .col {
+    width: 100%;
+  }
+  .w-50 {
+    width: 100%;
+  }
+  .padding-2 {
+    padding: 0;
+  }
+  .paragraph-card {
+    padding: 0px 70px;
+  }
+  .title-long {
+    padding: 0px 40px;
+  }
+  .paragraph {
+    padding: 0px 40px;
+  }
+  #img-phone {
+    flex-direction: column;
+  }
+  #img-phone img {
+    padding: 40px 40px;
+  }
+  #container-p {
+    flex-direction: column;
+  }
+  #container-pl {
+    flex-direction: column;
+  }
+  #imagen-p {
+    margin-top: 300px;
+  }
+  #img-pl {
+    padding: 40px;
+  }
+  #img-pll {
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+}

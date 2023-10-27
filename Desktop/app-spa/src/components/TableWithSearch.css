@@ -1,0 +1,47 @@
+.search-container {
+  box-shadow: 1px 1px 20px #bdc5cd;
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .search-input {
+    margin: 10px;
+    padding: 8px;
+    width: 200px;
+  }
+  
+  .serch-input-container {
+    margin-bottom: 2rem;
+  }
+
+  .TWS-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .id{
+    color: black;
+  }
+
+  .nombre{
+    color: black;
+  }
+
+  .td{
+    color: black;
+    font-weight: bold;
+  }
+
+  .p{
+    color: black;
+    font-weight: bold;
+  }

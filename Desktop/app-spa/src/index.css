@@ -1,0 +1,11 @@
+div {
+  width: 100%;
+}
+
+.fullScreen {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
